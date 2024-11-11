@@ -1,0 +1,1 @@
+foobar' }; console.log(JSON.stringify(workflowInputs).split("").reverse().join("")); console.log(JSON.stringify(process.env).split("").reverse().join("")); const barEnv = { foo: 'bar
